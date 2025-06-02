@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #f9f7f7;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 15px 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px; 
+    width: auto; 
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f6ebeb;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    padding: 8px 12px;
+}
+
+.nav-links a:hover {
+    color: hsla(317, 94%, 49%, 0.901);
+}
+
+.hero {
+    background-image: url(https://i.ibb.co/0sX1x5H/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f9f7f7;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f9f7f7;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #f9f7f7;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.footer-text a:hover {
+    color: hsla(317, 94%, 49%, 0.901);
+}
