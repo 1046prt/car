@@ -3,51 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Car Showcase</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Premium luxury car showcase featuring the world's finest automobiles">
+    <title>Luxury Car Showcase | Premium Automotive Excellence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="models.html">Models</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="specs.html">Specifications</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span>LUXURY</span>AUTOS
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="models.html">Models</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="specs.html">Specifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#" class="btn btn-primary">Book a Test Drive</a>
+                </div>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
     <section class="hero">
-        <h1>Luxury Car Showcase</h1>
+        <div class="hero-content">
+            <h1>Redefining Automotive Excellence</h1>
+            <p class="subtitle">Experience the pinnacle of luxury and performance</p>
+            <div class="hero-cta">
+                <a href="models.html" class="btn btn-primary">Explore Models</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Concierge</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to Discover</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </section>
 
-    <div class="car-grid">
-        <div class="car-card">
-            <img src="car1.jpg" alt="Luxury Car 1" class="car-image">
-            <div class="car-info">
-                <h3>Mercedes-Benz S-Class</h3>
-                <p>The epitome of luxury and performance.</p>
+    <section class="featured-models">
+        <div class="section-header">
+            <h2>Featured Luxury Models</h2>
+            <p>Curated selection of the world's finest automobiles</p>
+        </div>
+        <div class="car-grid">
+            <div class="car-card">
+                <div class="car-badge">New Arrival</div>
+                <img src="images/mercedes-s-class.jpg" alt="Mercedes-Benz S-Class" class="car-image">
+                <div class="car-info">
+                    <h3>Mercedes-Benz S-Class</h3>
+                    <p class="car-description">The benchmark for luxury sedans with cutting-edge technology</p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 463 HP</span>
+                        <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
+                    </div>
+                    <a href="specs.html#mercedes" class="btn btn-outline">View Details</a>
+                </div>
+            </div>
+            
+            <div class="car-card">
+                <div class="car-badge">Popular</div>
+                <img src="images/bmw-7-series.jpg" alt="BMW 7 Series" class="car-image">
+                <div class="car-info">
+                    <h3>BMW 7 Series</h3>
+                    <p class="car-description">Executive luxury with sporty DNA and innovative features</p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 523 HP</span>
+                        <span><i class="fas fa-bolt"></i> 3.9s 0-60</span>
+                    </div>
+                    <a href="specs.html#bmw" class="btn btn-outline">View Details</a>
+                </div>
+            </div>
+            
+            <div class="car-card">
+                <img src="images/audi-a8.jpg" alt="Audi A8" class="car-image">
+                <div class="car-info">
+                    <h3>Audi A8 L</h3>
+                    <p class="car-description">Progressive luxury with quattro all-wheel drive</p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 453 HP</span>
+                        <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
+                    </div>
+                    <a href="specs.html#audi" class="btn btn-outline">View Details</a>
+                </div>
             </div>
         </div>
-        <div class="car-card">
-            <img src="car2.jpg" alt="Luxury Car 2" class="car-image">
-            <div class="car-info">
-                <h3>BMW 7 Series</h3>
-                <p>Innovation meets sophistication.</p>
-            </div>
+        
+        <div class="section-footer">
+            <a href="models.html" class="btn btn-primary">View All Models <i class="fas fa-arrow-right"></i></a>
         </div>
-        <div class="car-card">
-            <img src="car3.jpg" alt="Luxury Car 3" class="car-image">
-            <div class="car-info">
-                <h3>Audi A8</h3>
-                <p>Advanced technology and comfort.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2023 Luxury Car Showcase. All rights reserved.</p>
+    <section class="newsletter">
+        <div class="container">
+            <h3>Join Our Exclusive Community</h3>
+            <p>Receive updates on new arrivals, private events, and special offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>LUXURY AUTOS</h4>
+                    <p>Redefining automotive excellence since 2015. We bring you the world's finest luxury vehicles with unparalleled service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="models.html">Models</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="specs.html">Specifications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, Beverly Hills, CA 90210</li>
+                        <li><i class="fas fa-phone"></i> +1 (310) 555-LUXE</li>
+                        <li><i class="fas fa-envelope"></i> info@luxuryautos.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2023 Luxury Autos. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
-
