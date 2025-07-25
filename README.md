@@ -5,11 +5,13 @@ A sophisticated luxury car showcase website featuring high-end vehicles with imm
 ## ✨ Key Features
 
 ### 🖼️ Visual Experiences
+
 - **Hero Slider**: Full-screen auto-rotating showcase (3 background images)
 - **Dashboard Gallery**: Interactive showroom environment slider
 - **Vehicle Gallery**: 6 premium car models with detailed specs
 
 ### 🛠️ Technical Implementation
+
 - **Responsive Design**: Mobile-optimized layouts
 - **CSS Animations**: Smooth transitions and hover effects  
 - **Dynamic Counters**: Animated statistics section
