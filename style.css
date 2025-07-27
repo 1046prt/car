@@ -506,8 +506,8 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
     margin-top: 80px;
 }
 
@@ -542,7 +542,7 @@ body {
 
 .car-image {
     width: 100%;
-    height: auto;
+    height: 20vh;
     object-fit: cover;
     transition: var(--transition-smooth);
 }
@@ -877,6 +877,10 @@ body {
     .mobile-toggle {
         display: block;
     }
+    .cta-button{
+        display: none;
+    }
+
 
     .nav-menu {
         display: none;
