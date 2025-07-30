@@ -336,22 +336,6 @@ body {
     background-position: center;
 }
 
-.dashboard-slide.active {
-    opacity: 1;
-}
-
-.dashboard-slide-1 {
-    background-image: url('assets/images/car/dashboard1.jpg');
-}
-
-.dashboard-slide-2 {
-    background-image: url('assets/images/car/dashboard2.jpg');
-}
-
-.dashboard-slide-3 {
-    background-image: url('assets/images/car/dashboard3.jpg');
-}
-
 .dashboard-nav {
     position: absolute;
     bottom: 20px;
