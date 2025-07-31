@@ -17,4 +17,4 @@ A sophisticated luxury car showcase website featuring high-end vehicles with imm
 - **Dynamic Counters**: Animated statistics section
 - **Testimonial Slider**: Client feedback carousel
 
-- Keep checing for next updated
+- Keep tracking for next updated
