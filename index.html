@@ -1,566 +1,750 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium luxury car showcase featuring the world's finest automobiles">
-    <title>Luxury Car Showcase | Automotive Excellence Redefined</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium luxury car showcase featuring the world's finest automobiles"
+    />
+    <title>LuxuryAutos | Automotive Excellence</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header class="header" id="header">
-        <div class="container">
-            <div class="nav-container">
-                <div class="logo">
-                    <span class="accent">LUXURY</span>AUTOS
-                </div>
-                <nav class="nav-menu" id="navMenu">
-                    <a href="#home">Home</a>
-                    <a href="#gallery">Models</a>
-                    <a href="#features">Features</a>
-                    <a href="#dashboard">Showroom</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-                <a href="#contact" class="cta-button">Book Test Drive</a>
-                <div class="mobile-toggle" id="mobileToggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
+      <div class="container">
+        <div class="nav-container">
+          <div class="logo"><span class="accent">LUXURY</span>AUTOS</div>
+          <nav class="nav-menu" id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#gallery">Models</a>
+            <a href="#features">Features</a>
+            <a href="#dashboard">Showroom</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a href="#contact" class="cta-button">Book Test Drive</a>
+          <div class="mobile-toggle" id="mobileToggle">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-slider">
-            <div class="slide slide-1 active"></div>
-            <div class="slide slide-2"></div>
-            <div class="slide slide-3"></div>
-            <div class="slide slide-4"></div>
+      <div class="hero-slider">
+        <div class="slide slide-1 active"></div>
+        <div class="slide slide-2"></div>
+        <div class="slide slide-3"></div>
+        <div class="slide slide-4"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-subtitle">Premium Automotive Excellence</div>
+        <h1 class="hero-title">Redefining Luxury</h1>
+        <p class="hero-description">
+          Experience the pinnacle of automotive craftsmanship with our curated
+          collection of the world's finest luxury vehicles.
+        </p>
+        <div class="hero-buttons">
+          <a href="#gallery" class="btn-primary">
+            Explore Collection <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn-secondary">
+            Schedule Viewing <i class="fas fa-calendar"></i>
+          </a>
         </div>
-        <div class="hero-content">
-            <div class="hero-subtitle">Premium Automotive Excellence</div>
-            <h1 class="hero-title">Redefining Luxury</h1>
-            <p class="hero-description">Experience the pinnacle of automotive craftsmanship with our curated collection of the world's finest luxury vehicles.</p>
-            <div class="hero-buttons">
-                <a href="#gallery" class="btn-primary">
-                    Explore Collection <i class="fas fa-arrow-right"></i>
-                </a>
-                <a href="#contact" class="btn-secondary">
-                    Schedule Viewing <i class="fas fa-calendar"></i>
-                </a>
-            </div>
-        </div>
-        <div class="slider-nav">
-            <div class="slider-dot active" data-slide="0"></div>
-            <div class="slider-dot" data-slide="1"></div>
-            <div class="slider-dot" data-slide="2"></div>
-            <div class="slider-dot" data-slide="3"></div>
-        </div>
+      </div>
+      <div class="slider-nav">
+        <div class="slider-dot active" data-slide="0"></div>
+        <div class="slider-dot" data-slide="1"></div>
+        <div class="slider-dot" data-slide="2"></div>
+        <div class="slider-dot" data-slide="3"></div>
+      </div>
     </section>
 
     <!-- Dashboard Section -->
     <section class="dashboard animate-on-scroll" id="dashboard">
-        <div class="container">
-            <div class="dashboard-container">
-                <div class="dashboard-content">
-                    <h2 class="dashboard-title">Exclusive Showroom Experience</h2>
-                    <p class="dashboard-description">Step into our state-of-the-art showroom where luxury meets innovation. Our immersive environment showcases each vehicle in its best light, allowing you to appreciate every exquisite detail.</p>
-                    
-                    <div class="dashboard-features">
-                        <div class="dashboard-feature">
-                            <i class="fas fa-lightbulb"></i>
-                            <span>Interactive lighting that highlights each vehicle's design</span>
-                        </div>
-                        <div class="dashboard-feature">
-                            <i class="fas fa-couch"></i>
-                            <span>Luxury lounge areas with premium amenities</span>
-                        </div>
-                        <div class="dashboard-feature">
-                            <i class="fas fa-headset"></i>
-                            <span>Personalized digital concierge service</span>
-                        </div>
-                    </div>
-                    
-                    <a href="#contact" class="btn-outline">
-                        Visit Our Showroom <i class="fas fa-map-marker-alt"></i>
-                    </a>
-                </div>
-                
-                <div class="dashboard-slider">
-                    <div class="dashboard-slide dashboard-slide-1 active"></div>
-                    <div class="dashboard-slide dashboard-slide-2"></div>
-                    <div class="dashboard-slide dashboard-slide-3"></div>
-                    <div class="dashboard-slide dashboard-slide-4"></div>
-                    <div class="dashboard-nav">
-                        <div class="dashboard-dot active" data-slide="0"></div>
-                        <div class="dashboard-dot" data-slide="1"></div>
-                        <div class="dashboard-dot" data-slide="2"></div>
-                        <div class="dashboard-dot" data-slide="3"></div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="dashboard-container">
+          <div class="dashboard-content">
+            <h2 class="dashboard-title">Exclusive Showroom Experience</h2>
+            <p class="dashboard-description">
+              Step into our state-of-the-art showroom where luxury meets
+              innovation. Our immersive environment showcases each vehicle in
+              its best light, allowing you to appreciate every exquisite detail.
+            </p>
+
+            <div class="dashboard-features">
+              <div class="dashboard-feature">
+                <i class="fas fa-lightbulb"></i>
+                <span
+                  >Interactive lighting that highlights each vehicle's
+                  design</span
+                >
+              </div>
+              <div class="dashboard-feature">
+                <i class="fas fa-couch"></i>
+                <span>Luxury lounge areas with premium amenities</span>
+              </div>
+              <div class="dashboard-feature">
+                <i class="fas fa-headset"></i>
+                <span>Personalized digital concierge service</span>
+              </div>
             </div>
+
+            <a href="#contact" class="btn-outline">
+              Visit Our Showroom <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </div>
+
+          <div class="dashboard-slider">
+            <div class="dashboard-slide dashboard-slide-1 active"></div>
+            <div class="dashboard-slide dashboard-slide-2"></div>
+            <div class="dashboard-slide dashboard-slide-3"></div>
+            <div class="dashboard-slide dashboard-slide-4"></div>
+            <div class="dashboard-nav">
+              <div class="dashboard-dot active" data-slide="0"></div>
+              <div class="dashboard-dot" data-slide="1"></div>
+              <div class="dashboard-dot" data-slide="2"></div>
+              <div class="dashboard-dot" data-slide="3"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Features Section -->
     <section class="features animate-on-scroll" id="features">
-        <div class="container">
-            <div class="section-title">
-                <div class="section-subtitle">Why Choose Us</div>
-                <h2 class="section-heading">Unmatched Excellence</h2>
-                <p class="section-description">We deliver more than just luxury vehicles – we provide a complete premium experience that exceeds every expectation.</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-crown"></i>
-                    </div>
-                    <h3 class="feature-title">Premium Selection</h3>
-                    <p class="feature-description">Handpicked collection of the world's most prestigious automotive brands, each vehicle representing the pinnacle of luxury and performance.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-concierge-bell"></i>
-                    </div>
-                    <h3 class="feature-title">Concierge Service</h3>
-                    <p class="feature-description">Personalized white-glove service from our luxury automotive specialists, ensuring every detail of your experience is perfect.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 class="feature-title">Certified Quality</h3>
-                    <p class="feature-description">Every vehicle undergoes rigorous inspection and certification, guaranteeing authenticity, quality, and performance excellence.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <div class="section-subtitle">Why Choose Us</div>
+          <h2 class="section-heading">Unmatched Excellence</h2>
+          <p class="section-description">
+            We deliver more than just luxury vehicles and we provide a complete
+            premium experience that exceeds every expectation.
+          </p>
         </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-crown"></i>
+            </div>
+            <h3 class="feature-title">Premium Selection</h3>
+            <p class="feature-description">
+              Handpicked collection of the world's most prestigious automotive
+              brands, each vehicle representing the pinnacle of luxury and
+              performance.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-concierge-bell"></i>
+            </div>
+            <h3 class="feature-title">Concierge Service</h3>
+            <p class="feature-description">
+              Personalized white-glove service from our luxury automotive
+              specialists, ensuring every detail of your experience is perfect.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="feature-title">Certified Quality</h3>
+            <p class="feature-description">
+              Every vehicle undergoes rigorous inspection and certification,
+              guaranteeing authenticity, quality, and performance excellence.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Car Gallery -->
     <section class="gallery animate-on-scroll" id="gallery">
-        <div class="container">
-            <div class="section-title">
-                <div class="section-subtitle">Our Collection</div>
-                <h2 class="section-heading">Featured Luxury Models</h2>
-                <p class="section-description">Discover our exclusive selection of premium automobiles, each representing the epitome of luxury, performance, and sophistication.</p>
+      <div class="container">
+        <div class="section-title">
+          <div class="section-subtitle">Our Collection</div>
+          <h2 class="section-heading">Featured Luxury Models</h2>
+          <p class="section-description">
+            Discover our exclusive selection of premium automobiles, each
+            representing the epitome of luxury, performance, and sophistication.
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="car-card">
+            <div class="car-badge">New Arrival</div>
+            <img
+              src="\assets\images\mercedes-s-class.png"
+              alt="Mercedes-Benz S-Class"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Mercedes-Benz S-Class</h3>
+              <p class="car-description">
+                The benchmark for luxury sedans, featuring cutting-edge
+                technology and unparalleled comfort.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 463 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
+                <span><i class="fas fa-road"></i> 25 MPG</span>
+              </div>
+              <div class="car-price">From $120,000</div>
+              <a href="#contact" class="btn-outline">
+                View Details <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
-            <div class="gallery-grid">
-                <div class="car-card">
-                    <div class="car-badge">New Arrival</div>
-                    <img src="\assets\images\mercedes-s-class.png" alt="Mercedes-Benz S-Class" class="car-image">
-                    <div class="car-info">
-                        <h3 class="car-name">Mercedes-Benz S-Class</h3>
-                        <p class="car-description">The benchmark for luxury sedans, featuring cutting-edge technology and unparalleled comfort.</p>
-                        <div class="car-specs">
-                            <span><i class="fas fa-tachometer-alt"></i> 463 HP</span>
-                            <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
-                            <span><i class="fas fa-road"></i> 25 MPG</span>
-                        </div>
-                        <div class="car-price">From $120,000</div>
-                        <a href="#contact" class="btn-outline">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="car-card">
-                    <div class="car-badge">Popular</div>
-                    <img src="assets/images/bmw-7-series.png" alt="BMW 7 Series" class="car-image">
-                    <div class="car-info">
-                        <h3 class="car-name">BMW 7 Series</h3>
-                        <p class="car-description">Executive luxury with sporty DNA, combining innovative technology with dynamic performance.</p>
-                        <div class="car-specs">
-                            <span><i class="fas fa-tachometer-alt"></i> 523 HP</span>
-                            <span><i class="fas fa-bolt"></i> 3.9s 0-60</span>
-                            <span><i class="fas fa-road"></i> 23 MPG</span>
-                        </div>
-                        <div class="car-price">From $105,000</div>
-                        <a href="#contact" class="btn-outline">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="car-card">
-                    <div class="car-badge">Limited Edition</div>
-                    <img src="assets/images/audi-a8.png" alt="Audi A8" class="car-image">
-                    <div class="car-info">
-                        <h3 class="car-name">Audi A8 L</h3>
-                        <p class="car-description">Progressive luxury sedan featuring quattro all-wheel drive and advanced autonomous capabilities.</p>
-                        <div class="car-specs">
-                            <span><i class="fas fa-tachometer-alt"></i> 453 HP</span>
-                            <span><i class="fas fa-bolt"></i> 4.6s 0-60</span>
-                            <span><i class="fas fa-road"></i> 24 MPG</span>
-                        </div>
-                        <div class="car-price">From $97,000</div>
-                        <a href="#contact" class="btn-outline">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="car-card">
-                    <img src="assets/images/porsche-panamera.png" alt="Porsche Panamera" class="car-image">
-                    <div class="car-info">
-                        <h3 class="car-name">Porsche Panamera Turbo</h3>
-                        <p class="car-description">The perfect blend of sports car dynamics and luxury sedan comfort with breathtaking performance.</p>
-                        <div class="car-specs">
-                            <span><i class="fas fa-tachometer-alt"></i> 620 HP</span>
-                            <span><i class="fas fa-bolt"></i> 3.1s 0-60</span>
-                            <span><i class="fas fa-road"></i> 20 MPG</span>
-                        </div>
-                        <div class="car-price">From $180,000</div>
-                        <a href="#contact" class="btn-outline">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="car-card">
-                    <div class="car-badge">Exclusive</div>
-                    <img src="assets/images/bentley-flying-spur..png" alt="Bentley Flying Spur" class="car-image">
-                    <div class="car-info">
-                        <h3 class="car-name">Bentley Flying Spur</h3>
-                        <p class="car-description">Uncompromised luxury with handcrafted details and effortless performance for the discerning driver.</p>
-                        <div class="car-specs">
-                            <span><i class="fas fa-tachometer-alt"></i> 626 HP</span>
-                            <span><i class="fas fa-bolt"></i> 3.7s 0-60</span>
-                            <span><i class="fas fa-road"></i> 18 MPG</span>
-                        </div>
-                        <div class="car-price">From $220,000</div>
-                        <a href="#contact" class="btn-outline">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="car-card">
-                    <div class="car-badge">Hybrid</div>
-                    <img src="assets/images/lexus-ls.png" alt="Lexus LS Hybrid" class="car-image">
-                    <div class="car-info">
-                        <h3 class="car-name">Lexus LS Hybrid</h3>
-                        <p class="car-description">Japanese craftsmanship meets hybrid technology in this serene luxury sedan with whisper-quiet operation.</p>
-                        <div class="car-specs">
-                            <span><i class="fas fa-tachometer-alt"></i> 354 HP</span>
-                            <span><i class="fas fa-bolt"></i> 5.2s 0-60</span>
-                            <span><i class="fas fa-road"></i> 28 MPG</span>
-                        </div>
-                        <div class="car-price">From $85,000</div>
-                        <a href="#contact" class="btn-outline">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+          </div>
 
-                <!-- Car 7 -->
-<div class="car-card">
-    <div class="car-badge">Electric</div>
-    <img src="assets/images/tesla.png" alt="Tesla Model S" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Tesla Model S Plaid</h3>
-        <p class="car-description">An all-electric super sedan that redefines speed, range, and digital luxury.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 1,020 HP</span>
-            <span><i class="fas fa-bolt"></i> 1.99s 0-60</span>
-            <span><i class="fas fa-road"></i> 396 mi range</span>
-        </div>
-        <div class="car-price">From $94,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 8 -->
-<div class="car-card">
-    <div class="car-badge">Luxury</div>
-    <img src="assets/images/Rolls-Royce.png" alt="Rolls-Royce Ghost" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Rolls-Royce Ghost</h3>
-        <p class="car-description">Quiet elegance and a commanding presence, built for refined journeys.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 563 HP</span>
-            <span><i class="fas fa-bolt"></i> 4.6s 0-60</span>
-            <span><i class="fas fa-road"></i> 19 MPG</span>
-        </div>
-        <div class="car-price">From $340,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 9 -->
-<div class="car-card">
-    <div class="car-badge">Flagship</div>
-    <img src="assets/images/Genesis.png" alt="Genesis G90" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Genesis G90</h3>
-        <p class="car-description">Cutting-edge comfort and design that defines a new era of South Korean luxury.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 420 HP</span>
-            <span><i class="fas fa-bolt"></i> 5.1s 0-60</span>
-            <span><i class="fas fa-road"></i> 20 MPG</span>
-        </div>
-        <div class="car-price">From $75,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 10 -->
-<div class="car-card">
-    <div class="car-badge">Performance</div>
-    <img src="assets/images/Maserati.png" alt="Maserati Quattroporte" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Maserati Quattroporte</h3>
-        <p class="car-description">Italian style and roaring performance for the luxury enthusiast.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 580 HP</span>
-            <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
-            <span><i class="fas fa-road"></i> 17 MPG</span>
-        </div>
-        <div class="car-price">From $108,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 11 -->
-<div class="car-card">
-    <div class="car-badge">New Arrival</div>
-    <img src="assets/images/Volvo.png" alt="Volvo S90" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Volvo S90 Recharge</h3>
-        <p class="car-description">Swedish refinement with plug-in hybrid efficiency and clean lines.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 455 HP</span>
-            <span><i class="fas fa-bolt"></i> 4.6s 0-60</span>
-            <span><i class="fas fa-road"></i> 29 MPG</span>
-        </div>
-        <div class="car-price">From $68,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 12 -->
-<div class="car-card">
-    <div class="car-badge">Limited Edition</div>
-    <img src="assets/images/Cadillac.jpg" alt="Cadillac CT6" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Cadillac CT6</h3>
-        <p class="car-description">American luxury with cutting-edge Super Cruise and spacious interiors.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 500 HP</span>
-            <span><i class="fas fa-bolt"></i> 4.4s 0-60</span>
-            <span><i class="fas fa-road"></i> 23 MPG</span>
-        </div>
-        <div class="car-price">From $76,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 13 -->
-<div class="car-card">
-    <div class="car-badge">Artisan</div>
-    <img src="assets/images/infiniti.png" alt="Infiniti Q70L" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Infiniti Q70L</h3>
-        <p class="car-description">Luxury and comfort in long-wheelbase style with a touch of Japanese precision.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 416 HP</span>
-            <span><i class="fas fa-bolt"></i> 5.3s 0-60</span>
-            <span><i class="fas fa-road"></i> 21 MPG</span>
-        </div>
-        <div class="car-price">From $61,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 14 -->
-<div class="car-card">
-    <div class="car-badge">Electric Elite</div>
-    <img src="assets/images/bmwi7.avif" alt="BMW i7" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">BMW i7</h3>
-        <p class="car-description">A fully electric flagship with immersive technology and zero emissions.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 536 HP</span>
-            <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
-            <span><i class="fas fa-road"></i> 300 mi range</span>
-        </div>
-        <div class="car-price">From $120,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 15 -->
-<div class="car-card">
-    <div class="car-badge">Executive</div>
-    <img src="assets/images/lincoln.png" alt="Lincoln Continental" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Lincoln Continental</h3>
-        <p class="car-description">Timeless American design meets modern luxury and comfort.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 400 HP</span>
-            <span><i class="fas fa-bolt"></i> 5.5s 0-60</span>
-            <span><i class="fas fa-road"></i> 20 MPG</span>
-        </div>
-        <div class="car-price">From $59,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
-<!-- Car 16 -->
-<div class="car-card">
-    <div class="car-badge">Sport Luxury</div>
-    <img src="assets/images/Jaguar.png" alt="Jaguar XJ" class="car-image">
-    <div class="car-info">
-        <h3 class="car-name">Jaguar XJ</h3>
-        <p class="car-description">A driver-focused blend of athletic elegance and bespoke refinement.</p>
-        <div class="car-specs">
-            <span><i class="fas fa-tachometer-alt"></i> 470 HP</span>
-            <span><i class="fas fa-bolt"></i> 4.9s 0-60</span>
-            <span><i class="fas fa-road"></i> 18 MPG</span>
-        </div>
-        <div class="car-price">From $85,000</div>
-        <a href="#contact" class="btn-outline">View Details <i class="fas fa-arrow-right"></i></a>
-    </div>
-</div>
-
+          <div class="car-card">
+            <div class="car-badge">Popular</div>
+            <img
+              src="assets/images/bmw-7-series.png"
+              alt="BMW 7 Series"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">BMW 7 Series</h3>
+              <p class="car-description">
+                Executive luxury with sporty DNA, combining innovative
+                technology with dynamic performance.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 523 HP</span>
+                <span><i class="fas fa-bolt"></i> 3.9s 0-60</span>
+                <span><i class="fas fa-road"></i> 23 MPG</span>
+              </div>
+              <div class="car-price">From $105,000</div>
+              <a href="#contact" class="btn-outline">
+                View Details <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
+          </div>
+
+          <div class="car-card">
+            <div class="car-badge">Limited Edition</div>
+            <img
+              src="assets/images/audi-a8.png"
+              alt="Audi A8"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Audi A8 L</h3>
+              <p class="car-description">
+                Progressive luxury sedan featuring quattro all-wheel drive and
+                advanced autonomous capabilities.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 453 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.6s 0-60</span>
+                <span><i class="fas fa-road"></i> 24 MPG</span>
+              </div>
+              <div class="car-price">From $97,000</div>
+              <a href="#contact" class="btn-outline">
+                View Details <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="car-card">
+            <img
+              src="assets/images/porsche-panamera.png"
+              alt="Porsche Panamera"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Porsche Panamera Turbo</h3>
+              <p class="car-description">
+                The perfect blend of sports car dynamics and luxury sedan
+                comfort with breathtaking performance.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 620 HP</span>
+                <span><i class="fas fa-bolt"></i> 3.1s 0-60</span>
+                <span><i class="fas fa-road"></i> 20 MPG</span>
+              </div>
+              <div class="car-price">From $180,000</div>
+              <a href="#contact" class="btn-outline">
+                View Details <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="car-card">
+            <div class="car-badge">Exclusive</div>
+            <img
+              src="assets/images/bentley-flying-spur..png"
+              alt="Bentley Flying Spur"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Bentley Flying Spur</h3>
+              <p class="car-description">
+                Uncompromised luxury with handcrafted details and effortless
+                performance for the discerning driver.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 626 HP</span>
+                <span><i class="fas fa-bolt"></i> 3.7s 0-60</span>
+                <span><i class="fas fa-road"></i> 18 MPG</span>
+              </div>
+              <div class="car-price">From $220,000</div>
+              <a href="#contact" class="btn-outline">
+                View Details <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="car-card">
+            <div class="car-badge">Hybrid</div>
+            <img
+              src="assets/images/lexus-ls.png"
+              alt="Lexus LS Hybrid"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Lexus LS Hybrid</h3>
+              <p class="car-description">
+                Japanese craftsmanship meets hybrid technology in this serene
+                luxury sedan with whisper-quiet operation.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 354 HP</span>
+                <span><i class="fas fa-bolt"></i> 5.2s 0-60</span>
+                <span><i class="fas fa-road"></i> 28 MPG</span>
+              </div>
+              <div class="car-price">From $85,000</div>
+              <a href="#contact" class="btn-outline">
+                View Details <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Car 7 -->
+          <div class="car-card">
+            <div class="car-badge">Electric</div>
+            <img
+              src="assets/images/tesla.png"
+              alt="Tesla Model S"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Tesla Model S Plaid</h3>
+              <p class="car-description">
+                An all-electric super sedan that redefines speed, range, and
+                digital luxury.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 1,020 HP</span>
+                <span><i class="fas fa-bolt"></i> 1.99s 0-60</span>
+                <span><i class="fas fa-road"></i> 396 mi range</span>
+              </div>
+              <div class="car-price">From $94,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 8 -->
+          <div class="car-card">
+            <div class="car-badge">Luxury</div>
+            <img
+              src="assets/images/Rolls-Royce.png"
+              alt="Rolls-Royce Ghost"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Rolls-Royce Ghost</h3>
+              <p class="car-description">
+                Quiet elegance and a commanding presence, built for refined
+                journeys.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 563 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.6s 0-60</span>
+                <span><i class="fas fa-road"></i> 19 MPG</span>
+              </div>
+              <div class="car-price">From $340,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 9 -->
+          <div class="car-card">
+            <div class="car-badge">Flagship</div>
+            <img
+              src="assets/images/Genesis.png"
+              alt="Genesis G90"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Genesis G90</h3>
+              <p class="car-description">
+                Cutting-edge comfort and design that defines a new era of South
+                Korean luxury.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 420 HP</span>
+                <span><i class="fas fa-bolt"></i> 5.1s 0-60</span>
+                <span><i class="fas fa-road"></i> 20 MPG</span>
+              </div>
+              <div class="car-price">From $75,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 10 -->
+          <div class="car-card">
+            <div class="car-badge">Performance</div>
+            <img
+              src="assets/images/Maserati.png"
+              alt="Maserati Quattroporte"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Maserati Quattroporte</h3>
+              <p class="car-description">
+                Italian style and roaring performance for the luxury enthusiast.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 580 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
+                <span><i class="fas fa-road"></i> 17 MPG</span>
+              </div>
+              <div class="car-price">From $108,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 11 -->
+          <div class="car-card">
+            <div class="car-badge">New Arrival</div>
+            <img
+              src="assets/images/Volvo.png"
+              alt="Volvo S90"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Volvo S90 Recharge</h3>
+              <p class="car-description">
+                Swedish refinement with plug-in hybrid efficiency and clean
+                lines.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 455 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.6s 0-60</span>
+                <span><i class="fas fa-road"></i> 29 MPG</span>
+              </div>
+              <div class="car-price">From $68,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 12 -->
+          <div class="car-card">
+            <div class="car-badge">Limited Edition</div>
+            <img
+              src="assets/images/Cadillac.jpg"
+              alt="Cadillac CT6"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Cadillac CT6</h3>
+              <p class="car-description">
+                American luxury with cutting-edge Super Cruise and spacious
+                interiors.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 500 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.4s 0-60</span>
+                <span><i class="fas fa-road"></i> 23 MPG</span>
+              </div>
+              <div class="car-price">From $76,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 13 -->
+          <div class="car-card">
+            <div class="car-badge">Artisan</div>
+            <img
+              src="assets/images/infiniti.png"
+              alt="Infiniti Q70L"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Infiniti Q70L</h3>
+              <p class="car-description">
+                Luxury and comfort in long-wheelbase style with a touch of
+                Japanese precision.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 416 HP</span>
+                <span><i class="fas fa-bolt"></i> 5.3s 0-60</span>
+                <span><i class="fas fa-road"></i> 21 MPG</span>
+              </div>
+              <div class="car-price">From $61,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 14 -->
+          <div class="car-card">
+            <div class="car-badge">Electric Elite</div>
+            <img
+              src="assets/images/bmwi7.avif"
+              alt="BMW i7"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">BMW i7</h3>
+              <p class="car-description">
+                A fully electric flagship with immersive technology and zero
+                emissions.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 536 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.5s 0-60</span>
+                <span><i class="fas fa-road"></i> 300 mi range</span>
+              </div>
+              <div class="car-price">From $120,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 15 -->
+          <div class="car-card">
+            <div class="car-badge">Executive</div>
+            <img
+              src="assets/images/lincoln.png"
+              alt="Lincoln Continental"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Lincoln Continental</h3>
+              <p class="car-description">
+                Timeless American design meets modern luxury and comfort.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 400 HP</span>
+                <span><i class="fas fa-bolt"></i> 5.5s 0-60</span>
+                <span><i class="fas fa-road"></i> 20 MPG</span>
+              </div>
+              <div class="car-price">From $59,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Car 16 -->
+          <div class="car-card">
+            <div class="car-badge">Sport Luxury</div>
+            <img
+              src="assets/images/Jaguar.png"
+              alt="Jaguar XJ"
+              class="car-image"
+            />
+            <div class="car-info">
+              <h3 class="car-name">Jaguar XJ</h3>
+              <p class="car-description">
+                A driver-focused blend of athletic elegance and bespoke
+                refinement.
+              </p>
+              <div class="car-specs">
+                <span><i class="fas fa-tachometer-alt"></i> 470 HP</span>
+                <span><i class="fas fa-bolt"></i> 4.9s 0-60</span>
+                <span><i class="fas fa-road"></i> 18 MPG</span>
+              </div>
+              <div class="car-price">From $85,000</div>
+              <a href="#contact" class="btn-outline"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Statistics Section -->
     <section class="stats animate-on-scroll" id="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item" style="animation-delay: 0.1s">
-                    <span class="stat-number" id="stat1">0</span>
-                    <span class="stat-label">Happy Clients</span>
-                </div>
-                <div class="stat-item" style="animation-delay: 0.3s">
-                    <span class="stat-number" id="stat2">0</span>
-                    <span class="stat-label">Luxury Models</span>
-                </div>
-                <div class="stat-item" style="animation-delay: 0.5s">
-                    <span class="stat-number" id="stat3">0</span>
-                    <span class="stat-label">Years Experience</span>
-                </div>
-                <div class="stat-item" style="animation-delay: 0.7s">
-                    <span class="stat-number" id="stat4">0</span>
-                    <span class="stat-label">Awards Won</span>
-                </div>
-            </div>
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item" style="animation-delay: 0.1s">
+            <span class="stat-number" id="stat1">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-item" style="animation-delay: 0.3s">
+            <span class="stat-number" id="stat2">0</span>
+            <span class="stat-label">Luxury Models</span>
+          </div>
+          <div class="stat-item" style="animation-delay: 0.5s">
+            <span class="stat-number" id="stat3">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item" style="animation-delay: 0.7s">
+            <span class="stat-number" id="stat4">0</span>
+            <span class="stat-label">Awards Won</span>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Testimonials Section -->
     <section class="testimonials animate-on-scroll">
-        <div class="container">
-            <div class="section-title">
-                <div class="section-subtitle">Client Experiences</div>
-                <h2 class="section-heading">What Our Clients Say</h2>
-                <p class="section-description">Hear from our valued clients about their exceptional experiences with LuxuryAutos.</p>
-            </div>
-            
-            <div class="testimonial-slider">
-                <div class="testimonial-slide active">
-                    <p class="testimonial-content">
-                        "The level of service at LuxuryAutos is unmatched. They found me the exact specification I wanted and handled every detail with precision. My new S-Class is perfection."
-                    </p>
-                    <h4 class="testimonial-author">Michael Richardson</h4>
-                    <p class="testimonial-role">CEO, TechGlobal</p>
-                </div>
-                
-                <div class="testimonial-slide">
-                    <p class="testimonial-content">
-                        "As a long-time collector, I appreciate their attention to detail and knowledge of the luxury market. They sourced a rare model for my collection that I couldn't find anywhere else."
-                    </p>
-                    <h4 class="testimonial-author">Sarah Wellington</h4>
-                    <p class="testimonial-role">Automotive Collector</p>
-                </div>
-                
-                <div class="testimonial-slide">
-                    <p class="testimonial-content">
-                        "The concierge service made the entire process effortless. From initial consultation to delivery, every step was handled with professionalism and care. Highly recommend!"
-                    </p>
-                    <h4 class="testimonial-author">James Peterson</h4>
-                    <p class="testimonial-role">Partner, Law Associates</p>
-                </div>
-                
-                <div class="testimonial-nav">
-                    <div class="testimonial-dot active" data-slide="0"></div>
-                    <div class="testimonial-dot" data-slide="1"></div>
-                    <div class="testimonial-dot" data-slide="2"></div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <div class="section-subtitle">Client Experiences</div>
+          <h2 class="section-heading">What Our Clients Say</h2>
+          <p class="section-description">
+            Hear from our valued clients about their exceptional experiences
+            with LuxuryAutos.
+          </p>
         </div>
+
+        <div class="testimonial-slider">
+          <div class="testimonial-slide active">
+            <p class="testimonial-content">
+              "The level of service at LuxuryAutos is unmatched. They found me
+              the exact specification I wanted and handled every detail with
+              precision. My new S-Class is perfection."
+            </p>
+            <h4 class="testimonial-author">Michael Richardson</h4>
+            <p class="testimonial-role">CEO, TechGlobal</p>
+          </div>
+
+          <div class="testimonial-slide">
+            <p class="testimonial-content">
+              "As a long-time collector, I appreciate their attention to detail
+              and knowledge of the luxury market. They sourced a rare model for
+              my collection that I couldn't find anywhere else."
+            </p>
+            <h4 class="testimonial-author">Sarah Wellington</h4>
+            <p class="testimonial-role">Automotive Collector</p>
+          </div>
+
+          <div class="testimonial-slide">
+            <p class="testimonial-content">
+              "The concierge service made the entire process effortless. From
+              initial consultation to delivery, every step was handled with
+              professionalism and care. Highly recommend!"
+            </p>
+            <h4 class="testimonial-author">James Peterson</h4>
+            <p class="testimonial-role">Partner, Law Associates</p>
+          </div>
+
+          <div class="testimonial-nav">
+            <div class="testimonial-dot active" data-slide="0"></div>
+            <div class="testimonial-dot" data-slide="1"></div>
+            <div class="testimonial-dot" data-slide="2"></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Newsletter Section -->
     <section class="newsletter animate-on-scroll" id="contact">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2 class="newsletter-title">Join Our Exclusive Community</h2>
-                <p class="newsletter-description">Subscribe to receive updates on new arrivals, special events, and private viewing opportunities.</p>
-                <form class="newsletter-form">
-                    <input type="email" class="newsletter-input" placeholder="Your Email Address" required>
-                    <button type="submit" class="newsletter-button">Subscribe</button>
-                </form>
-            </div>
+      <div class="container">
+        <div class="newsletter-content">
+          <h2 class="newsletter-title">Join Our Exclusive Community</h2>
+          <p class="newsletter-description">
+            Subscribe to receive updates on new arrivals, special events, and
+            private viewing opportunities.
+          </p>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              class="newsletter-input"
+              placeholder="Your Email Address"
+              required
+            />
+            <button type="submit" class="newsletter-button">Subscribe</button>
+          </form>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>LUXURYAUTOS</h4>
-                    <p>Redefining automotive excellence through curated luxury experiences and unparalleled service since 2005.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#gallery">Inventory</a></li>
-                        <li><a href="#features">Services</a></li>
-                        <li><a href="#dashboard">Showroom</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">Vehicle Sourcing</a></li>
-                        <li><a href="#">Private Viewings</a></li>
-                        <li><a href="#">Custom Orders</a></li>
-                        <li><a href="#">Concierge Delivery</a></li>
-                        <li><a href="#">Financing</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Us</h4>
-                    <p>123 Luxury Avenue<br>Jaipur, Rajasthan, India , 302031</p>
-                    <p>Phone: (+91) 9508015377<br>Email: 1046prt@gmail.com</p>
-                    <p>Showroom Hours:<br>Mon-Sat: 9AM - 7PM</p>
-                </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>LUXURYAUTOS</h4>
+            <p>
+              Redefining automotive excellence through curated luxury
+              experiences and unparalleled service since 2025.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 LuxuryAutos. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#gallery">Inventory</a></li>
+              <li><a href="#features">Services</a></li>
+              <li><a href="#dashboard">Showroom</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Vehicle Sourcing</a></li>
+              <li><a href="#">Private Viewings</a></li>
+              <li><a href="#">Custom Orders</a></li>
+              <li><a href="#">Concierge Delivery</a></li>
+              <li><a href="#">Financing</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>123 Luxury Avenue<br />Jaipur, Rajasthan, India , 302031</p>
+            <p>Phone: (+91) 9508015377<br />Email: 1046prt@gmail.com</p>
+            <p>Showroom Hours:<br />Mon-Sat: 9AM - 7PM</p>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 LuxuryAutos. All Rights Reserved. |
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+          </p>
+        </div>
+      </div>
     </footer>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
