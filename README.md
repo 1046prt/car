@@ -8,7 +8,7 @@ A sophisticated luxury car showcase website featuring high-end vehicles with imm
 
 - **Hero Slider**: Full-screen auto-rotating showcase (3 background images)
 - **Dashboard Gallery**: Interactive showroom environment slider
-- **Vehicle Gallery**: 6 premium car models with detailed specs
+- **Vehicle Gallery**: 16 premium car models with detailed specs and their prices.
 
 ### 🛠️ Technical Implementation
 
