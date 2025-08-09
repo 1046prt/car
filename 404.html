@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | LuxuryAutos</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        background-color: var(--background-dark);
+        color: var(--text-light);
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .error-code {
+        font-size: 8rem;
+        font-weight: 800;
+        background: var(--gradient-accent);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: var(--shadow-strong);
+      }
+
+      .error-message {
+        font-size: 1.8rem;
+        margin-top: 10px;
+        color: var(--text-dark);
+      }
+
+      .error-description {
+        font-size: 1rem;
+        max-width: 500px;
+        margin: 20px auto;
+        color: var(--secondary-accent-color);
+      }
+
+      .home-btn {
+        margin-top: 30px;
+        display: inline-block;
+        background: var(--gradient-accent);
+        color: var(--premium-black);
+        padding: 12px 30px;
+        border-radius: var(--border-radius);
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition-smooth);
+      }
+
+      .home-btn:hover {
+        background: var(--gradient-secondary);
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-soft);
+      }
+
+      .error-icon {
+        font-size: 3rem;
+        color: var(--primary-gold);
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-container">
+      <div class="error-icon"><i class="fas fa-exclamation-triangle"></i></div>
+      <div class="error-code">404</div>
+      <div class="error-message">Oops! Page Not Found</div>
+      <div class="error-description">
+        The page you are looking for doesn’t exist or has been moved. Please
+        return to our homepage and continue exploring our luxury collection.
+      </div>
+      <a href="index.html" class="home-btn">
+        <i class="fas fa-home"></i> Back to Home
+      </a>
+    </div>
+  </body>
+</html>
